@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilo.css">
+    <title>DESAFIO2 HTML/CSS</title>
+</head>
+<body>
+    
+    <header id="cabecalho">
+        <h1>ME ACHA!</h1>
+        <h2>ENCONTRE UM ENDEREÇO PELO NÚMERO DE CEP</h2>
+
+       <div id="fundoLogo">
+        <img id="logoTipo" src="../desafio2HtmlCss/img/IconsLogoTipoMundoLupa.png" alt="">
+       </div> 
+    </header>
+   
+
+    <main>
+        <form method="post" name="cadastro"></form>
+        <div id="centralizar">
+       <fieldset id="formulario">
+        <label for="cepUsuario">Cep</label>
+        <input type="text" id="cepUsuario" name="cepUsuario" value="">
+        <label for="ruaUsuario">Rua</label>
+        <input type="text" id="ruaUsuario" name="ruaUsuario" value="">
+        <label for="bairroUsuario">Bairro</label>
+        <input type="text" id="bairroUsuario" name="bairroUsuario">
+        <label for="cidadeUsuario">Cidade</label>
+        <input type="text" id="cidadeUsuario" name="cidadeUsuario">
+        <label for="estadoUsuario">Estado</label>
+        <input type="text" id="estadoUsuario" name="estadoUsuario">
+        <input type="submit" id="buscarDados" name="buscarDados" value="BUSCAR">
+        </fieldset>
+        </div>
+
+    </main>
+    <footer></footer>
+</body>
+</html>
